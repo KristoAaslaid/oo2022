@@ -6,7 +6,7 @@ public class tund02_proov3 {
     public static void main(String[] args) {
         Scanner kasutaja = new Scanner(System.in); // Kasutaja sisestab teksti
         System.out.println("Kirjuta '1' kui tahad 'String reverser' programmi või '2' kui tahad 'StringtoChar' programmi:");
-        double loe = kasutaja.nextDouble();
+        int loe = kasutaja.nextInt();
         if(loe==1) {
             Scanner kasutaja1 = new Scanner(System.in);
             System.out.println("Kirjuta midagi ja saad teksti vastupidi:");
